@@ -128,6 +128,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AudioModule.cs" />
+    <Compile Include="AudioService.cs" />
     <Compile Include="Echo.cs" />
     <Compile Include="Messages.cs" />
     <Compile Include="Program.cs" />

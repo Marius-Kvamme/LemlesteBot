@@ -9,9 +9,10 @@ namespace LemlesteBot
     {
         const string BOT_NAME = "echo bot";
 
-        static async Task EchoBot(string token, DiscordSocketClient client)
+        static async Task EchoBot()
         {
-
+            string token = "NTE5NzkzMDA5Nzk4MTUyMjAz.DukfKA.tRPI52C1dtkgeapWfYQoT9HCFjA";
+            var client = Program.client;
             await client.LoginAsync(TokenType.Bot, token);
             await client.StartAsync();
 

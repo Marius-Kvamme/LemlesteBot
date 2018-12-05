@@ -5,8 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Discord.Commands;
 using System.Collections.Generic;
+using Discord.WebSocket;
+using Discord;
 
-namespace Splatoo2ConsoleApp
+namespace LemlesteBot
 {
     public class Messages : ModuleBase
     {
@@ -54,9 +56,9 @@ namespace Splatoo2ConsoleApp
         }
 
         [Command("Alex")]
-        public async Task ra()
+        public async Task Alex()
         {
-            await ReplyAsync("Niceguy");
+            
         }
 
     }
